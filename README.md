@@ -63,13 +63,13 @@ npm test
 ```
 
 ## Contributors
-[Contributors](http://github.com/pkumar/nocof/contributors)
+[Contributors](http://github.com/pkumar/npm-police/contributors)
 
 ## License
 MIT/X11
 
 ## Bug Reports
-Report [here](http://github.com/pkumar/nocof/issues)
+Report [here](http://github.com/pkumar/npm-police/issues)
 
 ## Contact
 Pavan Kumar Sunkara (pavan.sss1991@gmail.com)
