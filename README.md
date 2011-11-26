@@ -34,10 +34,6 @@ police -u flatiron
 
 # To police a particular module of another user/org (You should give the repository name)
 police flatiron/plates
-
-# To interactively implement package.json suggestions (Only your repositories)
-police -i
-police -i octonode
 ```
 
 The token which we acquied during auth will be stored in `$HOME/.policeconf`. If you want to use another config file

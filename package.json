@@ -15,7 +15,8 @@
     "optimist": "*",
     "nconf": "*",
     "semver": "*",
-    "pkginfo": "*"
+    "pkginfo": "*",
+    "npm": "*"
   },
   "devDependencies": {
     "vows": "~0.6.0"
