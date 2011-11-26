@@ -1,0 +1,24 @@
+{
+  "name": "police",
+  "description": "policing tool for dependency package versions",
+  "version": "0.1.0",
+  "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pkumar.github.com)",
+  "contributors": [
+    { "name": "Pavan Kumar Sunkara", "email": "pavan.sss1991@gmail.com" }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vows": "~0.6.0"
+  },
+  "keywords": ["police", "dependency", "package", "version", "github", "npm"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pkumar/npm-police.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "test": "vows --spec $(find test -name '*-test.js')"
+  },
+  "engines": { "node": "~0.6" }
+}
