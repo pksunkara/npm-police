@@ -7,6 +7,15 @@
     { "name": "Pavan Kumar Sunkara", "email": "pavan.sss1991@gmail.com" }
   ],
   "dependencies": {
+    "request": "*",
+    "prompt": "*",
+    "colors": "*",
+    "winston": "*",
+    "eyes": "*",
+    "optimist": "*",
+    "nconf": "*",
+    "semver": "*",
+    "pkginfo": "*"
   },
   "devDependencies": {
     "vows": "~0.6.0"
@@ -16,9 +25,14 @@
     "type": "git",
     "url": "git://github.com/pkumar/npm-police.git"
   },
+  "bin": {
+    "police": "./bin/police"
+  },
   "main": "./lib/index",
   "scripts": {
     "test": "vows --spec $(find test -name '*-test.js')"
   },
-  "engines": { "node": "~0.6" }
+  "engines": {
+    "node": ">= 0.6.0"
+  }
 }

@@ -1,14 +1,58 @@
 # police
+A module dependency version policing tool. It goes through all your repositories on github which has package.json.
+Then it analyzes the dependencies and reports back to you about all the outdated packages.
 
-## Description
-A dependency package version policing tool.
+It also suggests corrections to your package.json file in certain cases.
 
 ## Installation
+Install police globally from npm registry by typing the following command
+
 ```
-npm install police
+npm install police -g
 ```
 
 ## Usage
+For the first time after you installed police, you need to authenticate yourself to [github](github.com).
+This is a one-time step
+
+```
+police auth
+```
+
+**Note:** We will not save your [github](github.com) password anywhere. A token which we acquire during
+the authentication will be used thereafter.
+
+```sh
+# To police your module dependencies
+police
+
+# To police a particular module (You should give the repository name)
+police npm-police
+
+# To police another user/org module dependencies
+police -u flatiron
+
+# To police a particular module of another user/org (You should give the repository name)
+police flatiron/plates
+
+# To interactively implement package.json suggestions (Only your repositories)
+police -i
+police -i npm-police
+```
+
+The token which we acquied during auth will be stored in `$HOME/.policeconf`. If you want to use another config file
+
+```
+police octonode --conf /etc/policeconf
+police octonode --conf ~/.conf
+```
+
+Calling police with help option will display all the above
+
+```
+police -h
+police --help
+```
 
 ## Testing
 ```
@@ -25,7 +69,8 @@ MIT/X11
 Report [here](http://github.com/pkumar/nocof/issues)
 
 ## Contact
-Pavan Kumar Sunkara
-[pavan [dot] sss1991 [at] gmail [dot] com](mailto:pavan.sss1991@gmail.com)
+Pavan Kumar Sunkara (pavan.sss1991@gmail.com)
 
 Follow me on [github](https://github.com/users/follow?target=pkumar), [twitter](http://twitter.com/pksunkara)
+
+Concept by: Martin Wawrusch (martin@wawrusch.com)

@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+var colors = require('colors')
+    , winston = require('winston').cli()
+    , argv = require('optimist').argv
+    , police = require('../lib/police');
+
+police.start(argv, function (err) {
+  process.stdout.on('drain', function () {
+    process.exit(err ? 1 : 0);
+  })
+
+  function onexit (code, status) {
+    if (err) {
+      process.removeListener('exit', onexit);
+      winston.error('Police'.grey + ' not ok'.red.bold);
+      process.exit(1);
+    }
+  }
+
+  process.on('exit', onexit);
+});
