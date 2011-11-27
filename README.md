@@ -57,6 +57,11 @@ police -h
 police --help
 ```
 
+## Screenshots
+
+![Help](http://github.com/pkumar/npm-police/raw/master/img/police-help.png "Help")
+![Running](http://github.com/pkumar/npm-police/raw/master/img/police-octonode.png "Running")
+
 If you like this project, please watch this and [follow](http://github.com/users/follow?target=pkumar) me.
 
 ## Testing
