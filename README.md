@@ -57,23 +57,36 @@ police -h
 police --help
 ```
 
+If you like this project, please watch this and [follow](https://github.com/users/follow?target=pkumar) me.
+
 ## Testing
 ```
 npm test
 ```
 
 ## Contributors
-[Contributors](http://github.com/pkumar/npm-police/contributors)
+Here is a list of [Contributors](github.com/pkumar/npm-police/contributors)
+
+### TODO
+- Proxy support
+- Option to isolate dependency checking and suggestions
+- Support multiple npm registries (custom)
+- Display progress bar instead of listing the dependencies (use charm)
+- Caching package.json blobs per commit
+- Start using [octonode](github.com/pkumar/octonode) module
+- Command for setting and deleting configurations
+
+__I accept pull requests and guarantee a reply back within a day__
 
 ## License
 MIT/X11
 
 ## Bug Reports
-Report [here](http://github.com/pkumar/npm-police/issues)
+Report [here](github.com/pkumar/npm-police/issues). Guaranteed reply within a day.
 
 ## Contact
 Pavan Kumar Sunkara (pavan.sss1991@gmail.com)
 
-Follow me on [github](https://github.com/users/follow?target=pkumar), [twitter](http://twitter.com/pksunkara)
+Follow me on [github](github.com/pkumar), [twitter](twitter.com/pksunkara)
 
-Concept by: Martin Wawrusch (martin@wawrusch.com)
+Concept by: [Martin Wawrusch](github.com/mwawrusch) (martin@wawrusch.com)
