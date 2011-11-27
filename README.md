@@ -12,14 +12,14 @@ npm install police -g
 ```
 
 ## Usage
-For the first time after you installed police, you need to authenticate yourself to [github](github.com).
+For the first time after you installed police, you need to authenticate yourself to [github](http://github.com).
 This is a one-time step
 
 ```
 police auth
 ```
 
-**Note:** We will not save your [github](github.com) password anywhere. A token which we acquire during
+**Note:** We will not save your [github](http://github.com) password anywhere. A token which we acquire during
 the authentication will be used thereafter.
 
 ```sh
@@ -57,7 +57,7 @@ police -h
 police --help
 ```
 
-If you like this project, please watch this and [follow](https://github.com/users/follow?target=pkumar) me.
+If you like this project, please watch this and [follow](http://github.com/users/follow?target=pkumar) me.
 
 ## Testing
 ```
@@ -65,7 +65,7 @@ npm test
 ```
 
 ## Contributors
-Here is a list of [Contributors](github.com/pkumar/npm-police/contributors)
+Here is a list of [Contributors](http://github.com/pkumar/npm-police/contributors)
 
 ### TODO
 - Proxy support
@@ -73,7 +73,7 @@ Here is a list of [Contributors](github.com/pkumar/npm-police/contributors)
 - Support multiple npm registries (custom)
 - Display progress bar instead of listing the dependencies (use charm)
 - Caching package.json blobs per commit
-- Start using [octonode](github.com/pkumar/octonode) module
+- Start using [octonode](http://github.com/pkumar/octonode) module
 - Command for setting and deleting configurations
 
 __I accept pull requests and guarantee a reply back within a day__
@@ -82,11 +82,11 @@ __I accept pull requests and guarantee a reply back within a day__
 MIT/X11
 
 ## Bug Reports
-Report [here](github.com/pkumar/npm-police/issues). Guaranteed reply within a day.
+Report [here](http://github.com/pkumar/npm-police/issues). __Guaranteed reply within a day__.
 
 ## Contact
 Pavan Kumar Sunkara (pavan.sss1991@gmail.com)
 
-Follow me on [github](github.com/pkumar), [twitter](twitter.com/pksunkara)
+Follow me on [github](http://github.com/pkumar), [twitter](http://twitter.com/pksunkara)
 
-Concept by: [Martin Wawrusch](github.com/mwawrusch) (martin@wawrusch.com)
+Concept by: [Martin Wawrusch](http://github.com/mwawrusch) (martin@wawrusch.com)
