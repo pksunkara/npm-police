@@ -36,6 +36,10 @@ police -u flatiron
 
 # To police a particular module of another user/org (You should give the repository name)
 police flatiron/plates
+
+# To police a local module or package.json file
+police -l ~/octonode
+police -l ~/octonode/package.json
 ```
 
 The token which we acquied during auth will be stored in `$HOME/.policeconf`. If you want to use another config file

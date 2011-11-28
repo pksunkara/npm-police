@@ -1,7 +1,7 @@
 {
   "name": "police",
   "description": "policing tool for dependency package versions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pkumar.github.com)",
   "contributors": [
     { "name": "Pavan Kumar Sunkara", "email": "pavan.sss1991@gmail.com" }
@@ -34,6 +34,6 @@
     "test": "vows --spec $(find test -name '*-test.js')"
   },
   "engines": {
-    "node": ">= 0.6.0"
+    "node": "~0.6.0"
   }
 }
