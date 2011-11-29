@@ -29,7 +29,7 @@
   "bin": {
     "police": "./bin/police"
   },
-  "main": "./lib/index",
+  "main": "./lib/police",
   "scripts": {},
   "engines": {
     "node": "~0.6.0"
