@@ -30,9 +30,7 @@
     "police": "./bin/police"
   },
   "main": "./lib/index",
-  "scripts": {
-    "test": "vows --spec $(find test -name '*-test.js')"
-  },
+  "scripts": {},
   "engines": {
     "node": "~0.6.0"
   }
