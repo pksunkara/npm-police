@@ -22,7 +22,7 @@ police auth
 ```
 
 **Note:** We will not save your [github](http://github.com) password anywhere. A token which we acquire during
-the authentication will be used thereafter.
+the authentication will be used thereafter. And it will be saved in a file with permissions `0600`
 
 ```sh
 # To police your module dependencies
@@ -40,6 +40,9 @@ police flatiron/plates
 # To police a local module or package.json file
 police -l ~/octonode
 police -l ~/octonode/package.json
+
+# To continue checking even though errors are encountered
+police -u flatiron -f
 ```
 
 The token which we acquied during auth will be stored in `$HOME/.policeconf`. If you want to use another config file
