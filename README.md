@@ -4,7 +4,7 @@ Then it analyzes the dependencies and reports back to you about all the outdated
 
 It also can suggest corrections to your package.json file in certain cases.
 
-![Running](http://github.com/pkumar/npm-police/raw/master/img/police-octonode.png "Running")
+![Running](http://github.com/pksunkara/npm-police/raw/master/img/police-octonode.png "Running")
 
 ## Installation
 Install police globally from npm registry by typing the following command
@@ -66,9 +66,9 @@ police -h
 police --help
 ```
 
-![Help](http://github.com/pkumar/npm-police/raw/master/img/police-help.png "Help")
+![Help](http://github.com/pksunkara/npm-police/raw/master/img/police-help.png "Help")
 
-If you like this project, please watch this and [follow](http://github.com/users/follow?target=pkumar) me.
+If you like this project, please watch this and [follow](http://github.com/users/follow?target=pksunkara) me.
 
 ## Testing
 ```
@@ -76,7 +76,7 @@ npm test
 ```
 
 ## Contributors
-Here is a list of [Contributors](http://github.com/pkumar/npm-police/contributors)
+Here is a list of [Contributors](http://github.com/pksunkara/npm-police/contributors)
 
 ### TODO
 - Proxy support
@@ -84,7 +84,7 @@ Here is a list of [Contributors](http://github.com/pkumar/npm-police/contributor
 - Support multiple npm registries (custom)
 - Display progress bar instead of listing the dependencies (use charm)
 - Caching package.json blobs per commit
-- Start using [octonode](http://github.com/pkumar/octonode) module
+- Start using [octonode](http://github.com/pksunkara/octonode) module
 - Command for setting and deleting configurations
 
 __I accept pull requests and guarantee a reply back within a day__
@@ -93,11 +93,11 @@ __I accept pull requests and guarantee a reply back within a day__
 MIT/X11
 
 ## Bug Reports
-Report [here](http://github.com/pkumar/npm-police/issues). __Guaranteed reply within a day__.
+Report [here](http://github.com/pksunkara/npm-police/issues). __Guaranteed reply within a day__.
 
 ## Contact
 Pavan Kumar Sunkara (pavan.sss1991@gmail.com)
 
-Follow me on [github](http://github.com/pkumar), [twitter](http://twitter.com/pksunkara)
+Follow me on [github](http://github.com/pksunkara), [twitter](http://twitter.com/pksunkara)
 
 Concept by: [Martin Wawrusch](http://github.com/mwawrusch) (martin@wawrusch.com)

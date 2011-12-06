@@ -2,7 +2,7 @@
   "name": "police",
   "description": "policing tool for dependency package versions",
   "version": "0.1.2",
-  "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pkumar.github.com)",
+  "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pksunkara.github.com)",
   "contributors": [
     { "name": "Pavan Kumar Sunkara", "email": "pavan.sss1991@gmail.com" }
   ],
@@ -24,7 +24,7 @@
   "keywords": ["police", "dependency", "package", "version", "github", "npm"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/pkumar/npm-police.git"
+    "url": "git://github.com/pksunkara/npm-police.git"
   },
   "bin": {
     "police": "./bin/police"
