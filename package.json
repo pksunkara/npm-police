@@ -10,7 +10,6 @@
     "async": "*",
     "request": "*",
     "prompt": "*",
-    "colors": "*",
     "winston": "*",
     "eyes": "*",
     "optimist": "*",

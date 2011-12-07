@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
-var colors = require('colors')
-    , winston = require('winston').cli()
-    , argv = require('optimist').argv
-    , police = require('../lib/police');
+var winston = require('winston').cli()
+  , argv = require('optimist').argv
+  , police = require('../lib/police');
 
 police.start(argv, function (err) {
   process.stdout.on('drain', function () {
