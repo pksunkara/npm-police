@@ -42,7 +42,29 @@ police -l ~/octonode
 police -l ~/octonode/package.json
 
 # To continue checking even though errors are encountered
+police -f
 police -u flatiron -f
+
+# To edit and update missing keywords in package.json
+police -k
+police octonode -k
+police -u flatiron -k
+police flatiron/plates -k
+police -l ~/octnode -k
+
+# To edit and update dependencies in package.json
+police -p
+police octonode -p
+police -u flatiron -p
+police flatiron/plates -p
+police -l ~/octonode -p
+
+# An ideal police command for github user
+police -f -k -p
+police -u flatiron -f -k -p
+
+# An ideal police command locally
+police -l ~/octonode -k -p
 ```
 
 The token which we acquied during auth will be stored in `$HOME/.policeconf`. If you want to use another config file
