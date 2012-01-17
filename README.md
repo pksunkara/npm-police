@@ -50,7 +50,6 @@ police -k
 police octonode -k
 police -u flatiron -k
 police flatiron/plates -k
-police -l ~/octnode -k
 
 # To edit and update dependencies in package.json
 police -p
@@ -64,7 +63,7 @@ police -f -k -p
 police -u flatiron -f -k -p
 
 # An ideal police command locally
-police -l ~/octonode -k -p
+police -l ~/octonode -p
 ```
 
 The token which we acquied during auth will be stored in `$HOME/.policeconf`. If you want to use another config file
