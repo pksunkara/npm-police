@@ -1,6 +1,6 @@
 {
   "name": "police",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pksunkara.github.com)",
   "description": "policing tool for dependency package versions",
   "main": "./lib/police",
