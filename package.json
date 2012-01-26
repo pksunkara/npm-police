@@ -44,7 +44,7 @@
     "vows": "~0.6.0"
   },
   "engines": {
-    "node": "~0.6.0"
+    "node": ">=0.6.0"
   },
   "bugs": {
     "url": "https://github.com/pksunkara/npm-police/issues"
