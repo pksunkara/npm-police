@@ -102,7 +102,6 @@ npm test
 Here is a list of [Contributors](http://github.com/pksunkara/npm-police/contributors)
 
 ### TODO
-- Proxy support
 - Option to isolate dependency checking and suggestions
 - Support multiple npm registries (custom)
 - Display progress bar instead of listing the dependencies (use charm)
