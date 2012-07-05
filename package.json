@@ -29,14 +29,15 @@
     }
   ],
   "dependencies": {
+    "colors": "0.6.x",
     "moment": "1.x.x",
     "async": "0.1.x",
     "request": "2.9.x",
-    "prompt": "0.1.x",
-    "winston": "0.5.x",
+    "prompt": "0.2.x",
+    "winston": "0.6.x",
     "eyes": "0.1.x",
     "optimist": "0.3.x",
-    "nconf": "0.5.x",
+    "nconf": "0.6.x",
     "semver": "1.0.x",
     "pkginfo": "0.2.x"
   },
@@ -44,7 +45,7 @@
     "vows": "~0.6.0"
   },
   "engines": {
-    "node": "0.6.0 - 0.7.11"
+    "node": ">=0.8.0"
   },
   "bugs": {
     "url": "https://github.com/pksunkara/npm-police/issues"
