@@ -1,6 +1,6 @@
 {
   "name": "police",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pksunkara.github.com)",
   "description": "policing tool for dependency package versions",
   "main": "./lib/police",
@@ -36,7 +36,7 @@
     "winston": "0.5.x",
     "eyes": "0.1.x",
     "optimist": "0.3.x",
-    "nconf": "0.6.x",
+    "nconf": "0.5.x",
     "semver": "1.0.x",
     "pkginfo": "0.2.x"
   },
