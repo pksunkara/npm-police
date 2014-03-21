@@ -24,6 +24,8 @@ police auth
 **Note:** We will not save your [github](http://github.com) password anywhere. A token which we acquire during
 the authentication will be used thereafter. And it will be saved in a file with permissions `0600`
 
+Does not work when 2 factor authorization is enabled. Please create a personal use token [here](https://github.com/settings/tokens/new) and edit the `./policeconf` file.
+
 ```sh
 # To police your module dependencies
 police
