@@ -29,17 +29,18 @@
     }
   ],
   "dependencies": {
-    "colors": "0.6.x",
-    "moment": "1.x.x",
     "async": "0.1.x",
-    "request": "2.9.x",
-    "prompt": "0.2.x",
-    "winston": "0.6.x",
+    "colors": "0.6.x",
     "eyes": "0.1.x",
-    "optimist": "0.3.x",
+    "moment": "1.x.x",
     "nconf": "0.6.x",
+    "npmconf": "2.1.x",
+    "optimist": "0.3.x",
+    "pkginfo": "0.2.x",
+    "prompt": "0.2.x",
+    "request": "2.9.x",
     "semver": "2.2.x",
-    "pkginfo": "0.2.x"
+    "winston": "0.6.x"
   },
   "devDependencies": {
     "vows": "~0.6.0"
