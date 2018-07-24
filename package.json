@@ -32,7 +32,7 @@
     "async": "0.1.x",
     "colors": "0.6.x",
     "eyes": "0.1.x",
-    "moment": "1.x.x",
+    "moment": "2.x.x",
     "nconf": "0.6.x",
     "npmconf": "2.1.x",
     "optimist": "0.3.x",
