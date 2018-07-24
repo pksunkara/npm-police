@@ -38,7 +38,7 @@
     "optimist": "0.3.x",
     "pkginfo": "0.2.x",
     "prompt": "0.2.x",
-    "request": "2.9.x",
+    "request": "2.87.x",
     "semver": "2.2.x",
     "winston": "0.6.x"
   },
