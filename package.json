@@ -40,7 +40,7 @@
     "prompt": "0.2.x",
     "request": "2.87.x",
     "semver": "5.5.x",
-    "winston": "0.6.x"
+    "winston": "3.0.x"
   },
   "devDependencies": {
     "vows": "~0.6.0"
