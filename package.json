@@ -40,7 +40,7 @@
     "pkginfo": "^0.4.1",
     "request": "^2.87.0",
     "semver": "^5.5.0",
-    "winston": "0.6.x"
+    "winston": "3.2.x"
   },
   "engines": {
     "node": ">=0.8.0"
