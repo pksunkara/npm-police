@@ -4,7 +4,7 @@ Then it analyzes the dependencies and reports back to you about all the outdated
 
 It also can suggest corrections to your package.json file in certain cases.
 
-![Running](img/police-octonode.png "Running")
+<p align=center><img src=screencast.svg width=600></p>
 
 ## Installation
 Install police globally from npm registry by typing the following command
@@ -90,8 +90,6 @@ Calling police with help option will display all the above
 police -h
 police --help
 ```
-
-![Help](img/police-help.png "Help")
 
 If you like this project, please watch this and [follow](http://github.com/users/follow?target=pksunkara) me.
 
