@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: inquirer
+    versions:
+    - ">= 7.a, < 8"
+  - dependency-name: winston
+    versions:
+    - "> 0.6.0"
